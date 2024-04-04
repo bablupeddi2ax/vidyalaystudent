@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <item android:title="menu"  >
+    <menu android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/admin"
+            android:title="@string/dashboard"
+            />
+
+        <item android:title="@string/admission_letter"
+            android:icon="@drawable/admissionletter"
+            android:id="@+id/admissionLetterFragment"
+            />
+
+        <item android:title="@string/paid_fee_recipt"
+            android:icon="@drawable/admissionletter"
+            android:id="@+id/paidFeeReceiptFragment"
+            />
+        <item
+            android:id="@+id/myTimeTableFragment"
+            android:icon="@drawable/student"
+            android:title="@string/my_timetable"/>
+
+        <item android:title="@string/my_report_card"
+            android:icon="@drawable/student"
+            android:id="@+id/reportCardFragment"/>
+
+        <item android:title="@string/test_resutls"
+            android:icon="@drawable/student"
+            android:id="@+id/testResultsFragment"/>
+
+        <item android:title="@string/exam_result"
+            android:icon="@drawable/student"
+            android:id="@+id/examResultFragment"/>
+
+        <item android:title="@string/home_assignments"
+            android:icon="@drawable/student"
+            android:id="@+id/homeAssignmentFragment"/>
+
+        <item android:title="@string/online_store"
+            android:icon="@drawable/student"
+            android:id="@+id/action_online_store"
+            />
+
+        <item android:title="@string/messagnig"
+            android:icon="@drawable/student"
+            android:id="@+id/messagingFragment"/>
+
+        <item android:title="@string/live_class"
+            android:icon="@drawable/student"
+            android:id="@+id/liveClassFragment"/>
+
+        <item android:title="@string/account_settings"
+            android:icon="@drawable/student"
+            android:id="@+id/updateLoginDetailsFragment"/>
+
+        <item android:title="@string/log_out"
+            android:icon="@drawable/student"
+            android:id="@+id/action_log_out"/>
+    </menu>
+    </item>
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eskooly.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_paidFeeReceiptFragment"
+            app:destination="@id/paidFeeReceiptFragment"
+            app:popUpTo="@id/nav_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/paidFeeReceiptFragment"
+        android:name="com.example.eskooly.ui.paidfeerecipt.PaidFeeReceiptFragment"
+        android:label="fragment_paid_fee_recipt"
+        tools:layout="@layout/fragment_paid_fee_recipt" >
+        <action
+            android:id="@+id/action_paidFeeReceiptFragment_to_feePaidDetailsFragment"
+            app:destination="@id/feePaidDetailsFragment"
+            app:enterAnim="@anim/nav_default_pop_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/paidFeeReceiptFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/admissionLetterFragment"
+        android:name="com.example.eskooly.ui.admissionletter.AdmissionLetterFragment"
+        android:label="fragment_admission_letter"
+        tools:layout="@layout/fragment_admission_letter" />
+    <fragment
+        android:id="@+id/updateLoginDetailsFragment"
+        android:name="com.example.eskooly.ui.updatelogindetails.UpdateLoginDetailsFragment"
+        android:label="UpdateLoginDetailsFragment" />
+    <fragment
+        android:id="@+id/myTimeTableFragment"
+        android:name="com.example.eskooly.ui.timetable.MyTimeTableFragment"
+        android:label="fragment_my_time_table"
+        tools:layout="@layout/fragment_my_time_table" />
+    <fragment
+        android:id="@+id/testResultsFragment"
+        android:name="com.example.eskooly.ui.testresults.TestResultsFragment"
+        android:label="TestResultsFragment" />
+    <fragment
+        android:id="@+id/examResultFragment"
+        android:name="com.example.eskooly.ui.examresult.ExamResultFragment"
+        android:label="ExamResultFragment" />
+    <fragment
+        android:id="@+id/liveClassFragment"
+        android:name="com.example.eskooly.ui.liveclass.LiveClassFragment"
+        android:label="fragment_live_class"
+        tools:layout="@layout/fragment_live_class" />
+    <fragment
+        android:id="@+id/homeAssignmentFragment"
+        android:name="com.example.eskooly.ui.homeassignment.HomeAssignmentFragment"
+        android:label="fragment_home_assignment"
+        tools:layout="@layout/fragment_home_assignment" />
+    <fragment
+        android:id="@+id/messagingFragment"
+        android:name="com.example.eskooly.ui.messaging.MessagingFragment"
+        android:label="fragment_messaging"
+        tools:layout="@layout/fragment_messaging" />
+    <fragment
+        android:id="@+id/feePaidDetailsFragment"
+        android:name="com.example.eskooly.ui.feepiaddetails.FeePaidDetailsFragment"
+        android:label="fragment_fee_paid_details"
+        tools:layout="@layout/fragment_fee_paid_details" />
+    <fragment
+        android:id="@+id/reportCardFragment"
+        android:name="com.example.eskooly.ui.reportcard.ReportCardFragment"
+        android:label="ReportCardFragment" />
+</navigation>

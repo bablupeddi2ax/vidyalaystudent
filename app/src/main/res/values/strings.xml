@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">eSkooly</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="paid_fee_recipt">Paid Fee Recipt</string>
+    <string name="my_timetable">My Timetable</string>
+    <string name="my_report_card">My Report Card</string>
+    <string name="test_resutls">Test Resutls</string>
+    <string name="exam_result">Exam Result</string>
+    <string name="home_assignments">Home Assignments</string>
+    <string name="online_store">Online Store</string>
+    <string name="messagnig">Messagnig</string>
+    <string name="live_class">Live Class</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="admission_letter">Admission Letter</string>
+</resources>
